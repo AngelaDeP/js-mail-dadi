@@ -40,3 +40,24 @@ body {
     color:rgb(16, 114, 49);
     padding: 5px;
 }
+
+/*Parte Gioco dei dadi*/
+
+.game-bt button {
+    font-size: 15px;
+    color:rgb(16, 114, 49);
+    padding: 5px;
+    margin: 50px;
+    outline: 2px solid #fff;
+    outline-offset: 2px;
+}
+
+.start-game {
+    background-color: #fff;
+    padding: 50px;
+    display: none;
+}
+
+.active {
+    display: inline-block;
+}

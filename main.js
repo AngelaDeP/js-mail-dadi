@@ -19,3 +19,15 @@ buttonLogin.addEventListener('click',
 
     }
 )
+
+let buttonGame = document.getElementById('game');
+
+buttonGame.addEventListener('click',
+    function() {
+
+        //Inserimento parte gioco
+        const GamePart = document.querySelector('.start-game');
+        GamePart.classList.add('active');
+
+    }
+)
