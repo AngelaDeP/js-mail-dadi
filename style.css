@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(16, 114, 49);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.insert-data {
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 80px;
+}
+
+.insert-data h1 {
+    margin-bottom: 20px;
+}
+
+.insert-data span {
+    color:rgb(16, 114, 49);
+    font-weight: bold;
+}
+
+.bt-section {
+    padding-top: 40px;
+}
+
+#login {
+    font-size: 15px;
+    color:rgb(16, 114, 49);
+    padding: 5px;
+}
