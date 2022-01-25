@@ -11,10 +11,15 @@ buttonLogin.addEventListener('click',
         for (let i = 0; i < login.length; i++) {
 
             if (login[i] == loginEmail.value) {
-                alert('Sei autorizzato ad accedere, ora sfida il nostro computer!');
-            } else if (login[i] != loginEmail.value) {
-                alert('Accesso non effettuato: ricontrolla la tua mail!');
-            }
+                var accessLogin = true;
+            } 
+
+        }
+
+        if (accessLogin == true) {
+            alert('Sei autorizzato ad accedere, ora sfida il nostro computer!');
+        } else {
+            alert('Hai sbagliato qualcosa: ricontrolla la tua mail!');
         }
 
     }
